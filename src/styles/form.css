@@ -1,0 +1,53 @@
+.form-container {
+  background: white;
+  width: 400px;
+  margin: 70px auto;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h1, h2 {
+  color: #2c3e50;
+}
+
+.desc {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #555;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+button {
+  background-color: #4a90e2;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #357ABD;
+}
+
+.btn-group button {
+  margin: 10px;
+}
+
+.link-text span {
+  color: #4a90e2;
+  cursor: pointer;
+  font-weight: bold;
+}
